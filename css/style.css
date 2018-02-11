@@ -1,0 +1,65 @@
+body, html {
+   font-size: 18px;
+}
+
+a {
+   color: black;
+}
+
+/*
+div, section {
+   border: 1px solid black;
+}
+*/
+
+h2 {
+   font-weight: bold;
+   padding: 30px;
+}
+
+section {
+   padding: 0 3em 3em 3em;
+}
+
+/* Navbar */
+
+.navbar {
+   margin-bottom: 0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+   margin: 0;
+}
+
+.btn {
+   background-color: orange;
+   font-style: normal;
+   font-weight: bolder;
+   letter-spacing: 2px;
+}
+
+/* General section */
+
+.general {
+   background-color: #eee;
+}
+
+.row img {
+   margin: 20px 0;
+}
+
+/* Contact section */
+
+.contact {
+   padding: 1em;
+}
+
+/* Footer */
+
+footer {
+   background: black;
+   color: lightgray;
+   padding-left: .6em;
+}
