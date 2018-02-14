@@ -30,12 +30,7 @@ section {
 /* Jumbotron */
 
 .jumbotron {
-   background-image: url("../images/mtn-bg.jpg");
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   margin-top: 50;
-   color: gray;
+   margin: 0;
 }
 
 .btn {
@@ -49,7 +44,6 @@ section {
 
 .general {
    background-color: #eee;
-   margin-top:50;
 }
 
 .row img {
