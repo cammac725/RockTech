@@ -25,17 +25,18 @@ section {
 
 .navbar {
    margin-bottom: 0;
+   color: white;
 }
 
 /* Jumbotron */
 
 .jumbotron {
-   background-image: url("../images/mtn-bg.jpg");
+   background-image: url("../images/tile-bg.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    margin-top: 50;
-   color: gray;
+   color: white;
 }
 
 .btn {
