@@ -32,7 +32,7 @@ section {
 
 .jumbotron {
    background-image: url("../images/tile-bg.jpg");
-   background-position: center;
+   background-position: bottom;
    background-size: cover;
    background-repeat: no-repeat;
    margin-top: 50;
