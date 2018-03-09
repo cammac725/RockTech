@@ -34,74 +34,19 @@ section {
    margin-bottom: 0;
 }
 
+.nav a {
+	font-size: 1.4em;
+   color:lightblue;
+}
+
 /* Jumbotron */
 
 .jumbotron {
-   background-image: url("../images/tile-bg.jpg");
-   background-position: bottom;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   margin-top: 50;
-}
-
-.jumbotron2 {
-   background-image: url("../images/grayblue1.jpg");
+   background-image: url("../images/grayblue.jpg");
    background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
-   padding-top: 30px;
-   margin-top: 50;
-}
-
-.jumbotron3 {
-   background-image: url("../images/rock-face1.jpg");
-   background-position: bottom;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   padding-top: 30px;
-   margin-top: 50;
-}
-
-.jumbotron4 {
-   background-image: url("../images/rock-sky1.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   padding-top: 30px;
-   margin-top: 50;
-}
-
-.jumbotron5 {
-   background-image: url("../images/rock-vista1.jpg");
-   background-position: top;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   padding-top: 30px;
-   margin-top: 50;
-}
-
-.jumbotron6 {
-   background-image: url("../images/rock-sea1.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   padding-top: 30px;
-   margin-top: 50;
-}
-
-.jumbotron7 {
-   background-image: url("../images/rock-stacks1.jpg");
-   background-position: bottom;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   padding-top: 30px;
    margin-top: 50;
 }
 
