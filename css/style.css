@@ -36,7 +36,6 @@ section {
 
 .nav a {
 	font-size: 1.4em;
-   color:lightblue;
 }
 
 /* Jumbotron */
@@ -204,6 +203,10 @@ section {
   position: absolute;
   white-space: nowrap;
   z-index: 2;
+}
+
+.text-content ul {
+   padding-top: 20px;
 }
 
 /* Contact section */
