@@ -6,13 +6,6 @@ a {
    color: white;
 }
 
-
-/*
-div, section {
-   border: 1px solid black;
-}
-*/
-
 h2 {
    font-weight: bold;
    padding: 30px;
@@ -205,8 +198,17 @@ section {
   z-index: 2;
 }
 
+.text-content {
+   background-color: #cbdbed;
+}
+
+.text-content p{
+	padding: 20px;
+}
+
 .text-content ul {
-   padding-top: 20px;
+   pdding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Contact section */
