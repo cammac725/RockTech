@@ -2,18 +2,23 @@ body, html {
    font-size: 18px;
 }
 
-a {
+/*a {
    color: white;
+}*/
+
+a:hover {
+	color: #FFA500;
 }
 
 h2 {
    font-weight: bold;
    padding: 30px;
+   line-height: 1.5em;
 }
 
 h3 {
    font-weight: bold;
-   padding: 10px 30px 30px 30px;
+   padding: 0px 30px 30px 30px;
 }
 
 section {
@@ -22,10 +27,9 @@ section {
 
 /* Navbar */
 
-.navbar {
-   color: white;
+./*navbar {
    margin-bottom: 0;
-}
+}*/
 
 .nav a {
 	font-size: 1.4em;
@@ -53,7 +57,6 @@ section {
 
 .general {
    background-color: #eee;
-   margin-top:50;
 }
 
 .row img {
