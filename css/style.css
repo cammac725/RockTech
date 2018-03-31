@@ -27,12 +27,15 @@ section {
 
 /* Navbar */
 
-./*navbar {
-   margin-bottom: 0;
-}*/
 
-.nav a {
-	font-size: 1.4em;
+.navbar span {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #FFA500;
+}
+
+.more {
+	padding-right: 20px;
 }
 
 /* Jumbotron */
@@ -43,7 +46,7 @@ section {
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
-   margin-top: 50;
+   /*margin-top: 50;*/
 }
 
 .btn {
