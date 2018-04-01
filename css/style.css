@@ -111,7 +111,7 @@ section {
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 22px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -122,7 +122,7 @@ section {
 	transform: translate(-50%, -50%);
 }
 .hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
+	font-size: 18px;
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
