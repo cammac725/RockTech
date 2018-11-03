@@ -2,23 +2,24 @@ body, html {
    font-size: 18px;
 }
 
-/*a {
-   color: white;
-}*/
-
 a:hover {
 	color: #FFA500;
 }
 
 h2 {
    font-weight: bold;
-   padding: 30px;
+   padding-top: 30px;
    line-height: 1.5em;
 }
 
 h3 {
    font-weight: bold;
    padding: 0px 30px 30px 30px;
+}
+
+hr {
+	width: 500px;
+	max-width: 90%;
 }
 
 section {
@@ -45,12 +46,14 @@ section {
 /* Jumbotron */
 
 .jumbotron {
-   background-image: url("../images/grayblue.jpg");
+   background-image: url("../images/grayblue1.jpg");
    background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
-   /*margin-top: 50;*/
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1); 
 }
 
 .btn {
@@ -66,159 +69,30 @@ section {
    background-color: #eee;
 }
 
+.bottom {
+	margin-top: 1.5rem;
+}
 .row img {
-   margin: 20px 0;
-}
-
-.hvrbox,
-.hvrbox * {
-	box-sizing: border-box;
-}
-.hvrbox {
-	position: relative;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-}
-.hvrbox img {
-	max-width: 100%;
-}
-.hvrbox .hvrbox-layer_bottom {
-	display: block;
-}
-.hvrbox .hvrbox-layer_top {
-	border-radius: 6px;
-	opacity: 0;
-	position: absolute;
-	top: 7%;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 86%;
-	background: rgba(0, 0, 0, 0.6);
-	color: #fff;
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
-}
-.hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 22px;
-	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-.hvrbox .hvrbox-text_mobile {
-	font-size: 18px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
-	margin-top: 5px;
-	padding-top: 2px;
-	display: none;
-}
-.hvrbox.active .hvrbox-text_mobile {
-	display: block;
-}
-
-.hvrbox .hvrbox-layer_slidedown {
-	-moz-transform: translateY(-100%);
-	-webkit-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-}
-.hvrbox:hover .hvrbox-layer_slidedown,
-.hvrbox.active .hvrbox-layer_slidedown {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-}
-
-.hvrbox .hvrbox-layer_slideup {
-	-moz-transform: translateY(100%);
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-}
-.hvrbox:hover .hvrbox-layer_slideup,
-.hvrbox.active .hvrbox-layer_slideup {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-}
-
-.hvrbox .hvrbox-layer_scale {
-	border-radius: 50%;
-	-moz-transform: scale(0);
-	-webkit-transform: scale(0);
-	-ms-transform: scale(0);
-	transform: scale(0);
-}
-.hvrbox:hover .hvrbox-layer_scale,
-.hvrbox.active .hvrbox-layer_scale {
-	border-radius: 0%;
-	-moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-}
-
-.hvrbox .hvrbox-layer_rotate {
-	border-radius: 50%;
-	-moz-transform: rotateZ(0);
-	-webkit-transform: rotateZ(0);
-	-ms-transform: rotateZ(0);
-	transform: rotateZ(0);
-}
-.hvrbox:hover .hvrbox-layer_rotate,
-.hvrbox.active .hvrbox-layer_rotate {
-	border-radius: 0%;
-	-moz-transform: rotateZ(360deg);
-	-webkit-transform: rotateZ(360deg);
-	-ms-transform: rotateZ(360deg);
-	transform: rotateZ(360deg);
+   margin: 0;
 }
 
 .row a:hover {
-  color: #FFA500;
-  position: relative;
+    color: #FFA500;
+    position: relative;
 }
 
 .row a[data]:hover:before {
-  background-color: #FFA500;
-  border-radius: 5px ;
-  color: #fff;
-  content: attr(data);
-  position: absolute;
-  white-space: nowrap;
-  z-index: 2;
+    background-color: #FFA500;
+    border-radius: 5px ;
+    color: #fff;
+    content: attr(data);
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
 }
 
-.text-content {
-   background-color: #cbdbed;
-}
-
-.text-content p{
-	padding: 20px;
-}
-
-.text-content ul {
-   pdding-top: 20px;
-	padding-bottom: 20px;
+.card-body {
+	padding: 0.75rem 1.25rem 1.25rem 1.25rem;
 }
 
 /* Contact section */
@@ -229,6 +103,11 @@ section {
 
 .contact a {
 	color: black;
+}
+
+.email {
+	padding-top: 0;
+	padding-bottom: 20px;
 }
 
 /* Footer */
